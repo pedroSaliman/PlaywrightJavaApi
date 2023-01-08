@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/seleniumprojects/gitendtoend/PlayApi">
+        <classes>
+            <class name="tests.TestCases">
+                <methods>
+                    <include name="getUsers"/>
+                    <include name="getsingleUsers"/>
+                    <include name="getsingleUsersnotfound"/>
+                    <include name="postUser"/>
+                    <include name="putUser"/>
+                    <include name="Delete"/>
+                    <include name="registerpost"/>
+                    <include name="Loginpost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
